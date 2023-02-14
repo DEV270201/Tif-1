@@ -28,6 +28,9 @@ function Home() {
                 </div>
                 {/* right */}
                 <div className='outer_right'>
+                    <div className='home_btn'>
+                        <Button text='Get In Touch' borderColor='#fff' borderRadius="20px" fontSize='16px' bgColor='transparent' height="36px" width="99px" paddingRightLeft='10px' paddingTopBottom='10px' />
+                    </div>
                     <div className='bg' style={{ backgroundImage: `url(${Main})` }}>
                     </div>
                     <div className='vtr'>

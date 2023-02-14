@@ -10,23 +10,31 @@
 .outer_right {
     width: 50%;
     position: relative;
-    /* height: 100vh; */
+    height: 804px;
 }
 
 .bg {
     height: 100%;
     width: 100%;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
+    }
+    
+    .home_btn {
+        position: absolute;
+        top: 2%;
+        right: 25px;
+        z-index: 10;
 }
 
 .vtr {
     position: absolute;
     right: 0%;
     top: 0%;
-    height: 100%;
-    width: 100%;
+    height: 839px;
+        width: 732px;
+        z-index: 0;
 }
 
 .paddedContainer {
@@ -140,5 +148,7 @@ mark {
     .para {
         font-size: 11px;
     }
-
+                                                                .vtr {
+                                                                    width: 600px;
+                                                                }
 }
