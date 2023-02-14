@@ -1,0 +1,80 @@
+.card_outer {
+    width: 381px;
+    height: 554px;
+    border-radius: 21px;
+    border: 1px solid #93A2D3;
+    margin: 0px 15px;
+}
+
+.card_img_cont {
+    padding: 27px 27px 0px 27px;
+    width: 326px;
+    height: 257px;
+    border-radius: 21px;
+}
+
+.card_body {
+    padding: 35px 42px 42px 42px;
+    width: 295px;
+}
+
+.card_head {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 21px;
+    color: var(--primary-color);
+    margin: 0px;
+}
+
+.card_para {
+    margin-top: 14px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    height: 81px;
+    color: #444957;
+    overflow-y: scroll;
+}
+
+.card_para::-webkit-scrollbar {
+    display: none;
+}
+
+.btn3 {
+    margin-top: 33px;
+}
+
+@media(max-width: 576px) {
+    .card_outer {
+        height: 484px;
+        width: 271px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0px;
+    }
+
+    .card_img_cont {
+        height: 166px;
+        width: 204px;
+    }
+
+    .card_head {
+        font-size: 16px;
+        /* margin-top: 35px; */
+    }
+
+    .card_body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card_para {
+        font-size: 12px;
+        height: 81px;
+        width: 213px;
+        line-height: 20px;
+    }
+}

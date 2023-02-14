@@ -1,0 +1,144 @@
+.outer {
+    display: flex;
+    width: 100%;
+}
+
+.outer_left {
+    width: 50%;
+}
+
+.outer_right {
+    width: 50%;
+    position: relative;
+    /* height: 100vh; */
+}
+
+.bg {
+    height: 100%;
+    width: 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.vtr {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.paddedContainer {
+    padding-left: 100px;
+}
+
+.logo_div {
+    margin-top: 33px;
+    height: 83px;
+    width: 107px;
+}
+
+.heading_cont {
+    width: 345px;
+    height: 207px;
+    margin-top: 111px;
+}
+
+.heading {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 62px;
+    font-family: "Source Sans Pro";
+}
+
+mark {
+    color: #E23744;
+    background-color: white;
+}
+
+.para_cont {
+    width: 345px;
+    height: 55px;
+    margin-top: 26px;
+}
+
+.para {
+    margin-top: 26px;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+.about_us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn1 {
+    margin-top: 50px;
+}
+
+@media(max-width:992px) {
+    .outer {
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    .logo_div {
+        height: 0px;
+        width: 0px;
+    }
+
+    .outer_left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .outer_right {
+        width: 100%;
+    }
+
+    .paddedContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading_cont {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .paddedContainer {
+        padding: 10px;
+    }
+
+    .para_cont {
+        text-align: center;
+    }
+}
+
+@media(max-width:576px) {
+
+    .heading_cont {
+        width: 240px;
+        height: 130px;
+    }
+
+    .heading {
+        font-size: 38px;
+    }
+
+    .para_cont {
+        width: 249px;
+        height: 36px;
+    }
+
+    .para {
+        font-size: 11px;
+    }
+
+}

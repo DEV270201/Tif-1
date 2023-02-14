@@ -1,0 +1,87 @@
+.about_us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+    margin-top: 383px;
+}
+
+.image {
+    height: 468px;
+    width: 384px;
+    position: relative;
+    /* left: 205px; */
+}
+
+.abt_head_para {
+    width: 447px;
+    height: 190px;
+}
+
+.abt_heading {
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin: 10px 0px;
+}
+
+.abt_para {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 27px;
+}
+
+.btn2 {
+    margin: 45px 0px;
+}
+
+@media(max-width:992px) {
+    .image {
+        height: 350px;
+        width: 250px;
+    }
+
+    .about_us {
+        margin-top: 70px;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .abtus_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .abt_head_para {
+        text-align: center;
+    }
+
+    .image {
+        display: none;
+    }
+}
+
+@media(max-width:576px) {
+    .abt_head_para {
+        width: 275px;
+        height: 150px;
+    }
+
+    .abt_para {
+        font-size: 11px;
+        line-height: 21px;
+
+    }
+
+    .abt_heading {
+        font-size: 26px;
+    }
+}
