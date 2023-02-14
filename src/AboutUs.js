@@ -7,7 +7,7 @@ function AboutUs() {
     return (
         <div className='about_us'>
             <div className='image'>
-                <img src={Img1} height={'100%'} width={'100%'} />
+                <img src={Img1} height={'100%'} width={'100%'} alt='imgprop' />
             </div>
             <div className='abtus_content'>
                 <div className='abt_head_para'>
